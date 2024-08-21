@@ -1,0 +1,13 @@
+{
+    "type":"object",
+    "properties": {
+        "username": {
+            "type":"string"
+        },
+        "message": {
+            "type":"string"
+        }
+    },
+    "additionalProperties": false,
+    "required": ["username", "message"]
+}
